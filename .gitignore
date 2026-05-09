@@ -1,0 +1,26 @@
+# Mac
+.DS_Store
+__MACOSX/
+
+# Python
+__pycache__/
+
+# Data Folder only add nerf_synthetic folder
+data/*
+!data/nerf_synthetic/
+
+# Other files
+*.xml
+*.zip
+*.ply
+
+# Other folders
+processed_images_colmap/
+camera_input_pics/
+camera_input_pics_converted/
+outputs/
+mirror_rendering_outputs/
+rendering_outputs/
+export/
+.idea/
+
